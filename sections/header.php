@@ -1,27 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="UTF-8">
 	<title></title>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="theme-color" content="#960605">
-  <meta name="robots" content="index, follow">
-  <meta property="og:image" content="/img/bg.jpg">
-  <meta property="og:type" content="article"> 
- <title></title>
-<meta name="description" content="">
-<meta name="keywords" content=""> 
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-<meta property="og:image" content="/img/bg.jpg">
-<meta property="og:type" content="article">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 

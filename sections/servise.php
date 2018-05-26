@@ -1,41 +1,4 @@
-<style>
-  #servise {text-align: center;}   
-    #servise img {
-    	margin-top: -20px;
-      border-radius: 4px;
-      transition: 0.3s;    
-      width: 250px;    
-    }  
-    #servise img:hover {
-      transform: scale(1.1) rotate(10deg);     
-      box-shadow: 0px 0px 6px 3px #0000008f;   
-    }
-@media screen and (max-width: 768px){
-	.s-item {margin: 2%;}
-}
-@media screen and (min-width: 768px) {
-	.s-card{
-		border-radius: 4px;
-    width: calc(50% - 10px);
-	}
-}
-	 #servise .gear {width: 32px;}
-	 .s-item {list-style: none;}
-	 .s-item-l .gear {float: left;}
-	 .s-item-l .t-p {float: left;}
-	 .s-item-r .gear {float: right;}
-	 .s-item-r .t-p {float: right;}
-	#s_items_wrap {
-		padding: 0;
-	}
-	.s-item {padding: 14px 0;}
-	.s-card {
-	color: #fff;
-	background-color: #2d2d2d;
-	margin: 5px;
-	margin-bottom: 29px;
-}
-</style>
+
 <div id="servise" class="container">
 		<h2>Мы предоставляем услуги</h2>
 		<div class="row">

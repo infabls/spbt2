@@ -1,10 +1,4 @@
 <?php
-
-if (!empty($_POST['tel'])) {
-	
-}
-
-
 require 'sections/header.php'; 
 require 'sections/contact.php';
 require 'sections/servise.php'; 

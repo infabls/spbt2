@@ -1,24 +1,16 @@
 
 <script>
-	function calc(form) {
-		var GDO = document.form.GDO.value.replace(',', '.');
-		var GAZ = document.form.GAZ.value.replace(',', '.');
-		var BENZIN = document.form.BENZIN.value.replace(',', '.');
-		var ROZHOD = document.form.ROZHOD.value.replace(',', '.');
-		var PROBEG = document.form.PROBEG.value.replace(',', '.');
-		var RESULT = ((GDO * 100)/((BENZIN-GAZ*1.15)*ROZHOD*PROBEG));
-
-
-		
-
-		document.form.RESULT.value = Math.round(RESULT);
-		document.form.PRICEG.value = Math.round((PROBEG*ROZHOD*GAZ)/100);
-		document.form.PRICEB.value = Math.round((PROBEG*ROZHOD*BENZIN)/100);
-		document.form.EKONOM.value = Math.round(((BENZIN-GAZ*1.15)*ROZHOD*PROBEG)/100)*365;
-		document.form.EKONOMD.value = Math.round(((BENZIN-GAZ*1.15)*ROZHOD*PROBEG)/100);
-		document.form.EKONOMM.value = Math.round(((BENZIN-GAZ*1.15)*ROZHOD*PROBEG)/100)*30;
-	}
-
+    function calcc(form) {
+        var GAZ = document.getElementById("GAZ").value;
+        var BENZIN = document.getElementById("BENZIN").value;
+        var ROZHOD = document.getElementById("ROZHOD").value;
+        var PROBEG = document.getElementById("PROBEG").value;
+        var EKONOM = Math.ceil((((BENZIN-GAZ)*ROZHOD*PROBEG)/100)*12);
+        if (EKONOM > 0) {
+             document.getElementById("demo").innerHTML = EKONOM;
+        document.getElementById("calc_result").removeAttribute("style");
+        }
+    }
 </script>
 <section id="calculator" class="calculator">
         <div class="container">
@@ -31,32 +23,33 @@
             </div> <!-- Title row end -->
             <div class="row">
                 <div class="col-md-6">
-                    <form class="form-horizontal calculator_form text-center" onsubmit="calc(this)" method="post"">
+                    <form class="form-horizontal calculator_form text-center" onsubmit="calcc(this)" method="post"">
+                        <input type="hidden" name="GDO" id="myText" value="120000">
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">1 л бензина</span>
-                            <input class="form-control" type="number" name="BENZIN" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="1">
+                            <input class="form-control" onchange="calcc(this)"type="number" value="160" id="BENZIN" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="1">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">1 л газа</span>
-                            <input class="form-control" type="number" name="GAZ" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="2">
+                            <input class="form-control" onchange="calcc(this)"type="number" value="110" id="GAZ" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="2">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">Расход на 100 км</span>
-                            <input class="form-control" type="number" name="ROZHOD" placeholder="литров" inputmode="numeric" pattern="\d*" tabindex="3">
+                            <input class="form-control" onchange="calcc(this)"type="number" value="10" id="ROZHOD" placeholder="литров" inputmode="numeric" pattern="\d*" tabindex="3">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">Пробег в месяц</span>
-                            <input class="form-control" type="number" name="PROBEG" placeholder="километров" inputmode="numeric" pattern="\d*" tabindex="4">
+                            <input class="form-control" onchange="calcc(this)"type="number" value="500" id="PROBEG" placeholder="километров" inputmode="numeric" pattern="\d*" tabindex="4">
                         </div>
                         <br>
-                       <input onclick="calc(this)" type="button" class="btn" value="Подсчитать">
+                       <input onclick="calcc(this)" type="button" class="btn" value="Подсчитать">
                     </form>
                 </div>
                 <div class="col-md-6">
                     <div class="profit plan text-center featured" id="calc_result" style="display: none;">
                             <span class="plan-name">Экономия после установки ГБО</span>
                             <p class="plan-price">
-                                <strong>500 000</strong>                    
+                                <strong id="demo">500 000</strong>                    
                                 <sup class="currency">тг</sup>
                                 <span>в год</span>
                             </p>

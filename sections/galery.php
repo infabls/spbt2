@@ -5,17 +5,29 @@
 		<div class="container">
 			<h2>Фотогаллерея</h2>
 			<div class="row gallery">
-				<a href="assets/img/Clarkb06GB037.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="assets/img/Clarkb06GB037.jpg" alt="" />
-				</a>
-				<a href="assets/img/gallery/Oe46F5GwWeU.jpg" data-fancybox="gallery" data-caption="Фотография пениса">
+				<a href="assets/img/gallery/Oe46F5GwWeU.jpg" data-fancybox="gallery" data-caption="Caption #1">
 					<img src="assets/img/gallery/Oe46F5GwWeU.jpg" alt="" />
 				</a>
-				<a href="assets/img/Clarkb06GB037.jpg" data-fancybox="gallery" data-caption="Caption #1">
-					<img src="assets/img/Clarkb06GB037.jpg" alt="" />
+				<a href="assets/img/gallery/3_Fd3pwrWTk.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="assets/img/gallery/3_Fd3pwrWTk.jpg" alt="" />
 				</a>
-				<a href="assets/img/Clarkb06GB037.jpg" data-fancybox="gallery" data-caption="Caption #2">
-					<img src="assets/img/Clarkb06GB037.jpg" alt="" />
+				<a href="assets/img/gallery/86xppiKWnsQ.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="assets/img/gallery/86xppiKWnsQ.jpg" alt="" />
+				</a>
+				<a href="assets/img/gallery/8HeKx_MDNR4.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="assets/img/gallery/8HeKx_MDNR4.jpg" alt="" />
+				</a>
+				<a href="assets/img/gallery/iyy-3dC3kj0.jpg" data-fancybox="gallery" data-caption="Фотография пениса">
+					<img src="assets/img/gallery/iyy-3dC3kj0.jpg" alt="" />
+				</a>
+				<a href="assets/img/gallery/m39dNOQULTU.jpg" data-fancybox="gallery" data-caption="Caption #1">
+					<img src="assets/img/gallery/m39dNOQULTU.jpg" alt="" />
+				</a>
+				<a href="assets/img/gallery/tkNFi8qFPC4.jpg" data-fancybox="gallery" data-caption="Caption #2">
+					<img src="assets/img/gallery/tkNFi8qFPC4.jpg" alt="" />
+				</a>
+				<a href="assets/img/gallery/ZZqv2oEdAHw.jpg" data-fancybox="gallery" data-caption="Caption #2">
+					<img src="assets/img/gallery/ZZqv2oEdAHw.jpg" alt="" />
 				</a>
 			</div>
 		</div>

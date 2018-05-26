@@ -1,6 +1,6 @@
 <footer id="contacts">
 	<div class="container">
-		<div class="row">
+		<div class="row over2">
 			<div class="col-md-6 col-sm-12 text-center" id="order-now">
 				<h4 class="text-default">Оставить заявку</h4>
 				<h5>Мы обязательно Вам перезвоним</h5>
@@ -27,11 +27,12 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
 						<h4>Email:</h4>
-						<p><a href="mailto:spbt@mail.ru" class="white">spbt@mail.ru</a>
-					<a href="mailto:spbt@mail.ru" class="white">spbt@mail.ru</a></p>
+						<p><a href="mailto:Vostok.spbt@mail.ru" class="white">Vostok.spbt@mail.ru</a></p>
+					<p><a href="mailto:Anuarmanabaev@mail.ru" class="white">Anuarmanabaev@mail.ru</a></p>
+					<p><a href="mailto:Imashev.rinat@mail.ru" class="white">Imashev.rinat@mail.ru</a></p>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<h4>Телефоны.</h4>
+						<h4>Телефоны:</h4>
 						<p><a href="tel:+77077777988" class="white">+77077777988</a></p>
 						<p><a href="tel:+77077777988" class="white">+77012129393</a></p>
 					</div>
@@ -45,7 +46,7 @@
 <link rel="stylesheet" href="/assets/css/animate.css">
 <script src="/assets/js/wow.js"></script>
 <link rel="manifest" href="/manifest.json">
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
