@@ -21,3 +21,19 @@
 	</div>
 </center>
 </div>
+
+<?php
+if(!empty($_POST['phone'])){
+	//Получаем данные из глобальной переменной $_GET, так как мы передаем данные методом GET
+	$name = $_POST['name']; // Вытаскиваем имя в переменную
+	//$email = $_POST['e-mail']; // Вытаскиваем почту в переменную
+	$phone= $_POST['phone'];
+	$email = $_POST['email'];
+	$message = "Поздравляем, $name, отправка сообщений и номера $phone работает"; // Формируем сообщение, отправляемое на почту
+	$to = '$vagabuntpro@yandex.ru'; // Задаем получателя письма
+	$from = $phone;  // От кого пришло письмо
+	$subject = "Письмо с примера простой формы сайта web.cofp.ru"; // Задаем тему письма
+	$headers = "From: $from\r\nReply-To: $to\r\nContent-type: text/html; charset=utf-8\r\n"; // Формируем заголовок письма (при неправильном формировании может ломаться кодировка и т.д.)
+	mail($to, $subject, $message, $headers);
+}
+?>

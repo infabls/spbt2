@@ -27,22 +27,22 @@
                         <input type="hidden" name="GDO" id="myText" value="120000">
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">1 л бензина</span>
-                            <input class="form-control" onchange="calcc(this)"type="number" value="160" id="BENZIN" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="1">
+                            <input class="form-control" type="number" value="160" id="BENZIN" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="1">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">1 л газа</span>
-                            <input class="form-control" onchange="calcc(this)"type="number" value="110" id="GAZ" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="2">
+                            <input class="form-control" type="number" value="110" id="GAZ" placeholder="тенге" inputmode="numeric" pattern="\d*" tabindex="2">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">Расход на 100 км</span>
-                            <input class="form-control" onchange="calcc(this)"type="number" value="10" id="ROZHOD" placeholder="литров" inputmode="numeric" pattern="\d*" tabindex="3">
+                            <input class="form-control" type="number" value="10" id="ROZHOD" placeholder="литров" inputmode="numeric" pattern="\d*" tabindex="3">
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon" style="width: 50% !important">Пробег в месяц</span>
-                            <input class="form-control" onchange="calcc(this)"type="number" value="500" id="PROBEG" placeholder="километров" inputmode="numeric" pattern="\d*" tabindex="4">
+                            <input class="form-control" type="number" value="500" id="PROBEG" placeholder="километров" inputmode="numeric" pattern="\d*" tabindex="4">
                         </div>
                         <br>
-                       <input onclick="calcc(this)" type="button" class="btn" value="Подсчитать">
+                       <input onclick="calcc(this)" type="button" class="btn btn-primary" value="Подсчитать">
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -54,12 +54,12 @@
                                 <span>в год</span>
                             </p>
                             <h5>Оставьте заявку и мы перезвоним вам</h5>
-                            <form class="form-horizontal order-form">
+                            <form class="form-horizontal order-form" action="" method="POST">
                                     <div class="form-group">
                                         <h4 class="success-order black" style="display: none">Спасибо за заявку</h4>
-                                        <input class="form-control phone-number text-center" type="text" name="msisdn" placeholder="Ваш телефон" inputmode="numeric">
+                                        <input required class="form-control phone-number text-center" type="text" name="phone" placeholder="Ваш телефон" inputmode="numeric">
                                     </div>
-                                    <button class="btn btn-primary solid cd-btn" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Ожидайте">Оформить заявку</button>
+                                    <button class="btn btn-primary solid cd-btn">Оформить заявку</button>
                             </form>
                         </div>
                 </div>

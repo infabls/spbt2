@@ -10,7 +10,7 @@
 						<input class="form-control phone-number text-center" type="text" name="phone" placeholder="Ваш телефон" inputmode="numeric">
 					</div>
 					<button class="btn btn-primary solid cd-btn" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Ожидайте">Отправить</button>
-					<a href="tel:+77012129393" class="btn btn-primary white cd-btn"><i class="fa fa-phone"></i> +77012129393</a>
+					<a href="tel:+77012129393" class="btn btn-primary white cd-btn"><i class="fa fa-phone"></i> 8(701)212-93-93</a>
 				</form>	
 				<div class="gap-20"></div>
 			</div>
@@ -28,13 +28,11 @@
 					<div class="col-md-6 col-sm-6">
 						<h4>Email:</h4>
 						<p><a href="mailto:Vostok.spbt@mail.ru" class="white">Vostok.spbt@mail.ru</a></p>
-					<p><a href="mailto:Anuarmanabaev@mail.ru" class="white">Anuarmanabaev@mail.ru</a></p>
-					<p><a href="mailto:Imashev.rinat@mail.ru" class="white">Imashev.rinat@mail.ru</a></p>
 					</div>
 					<div class="col-md-6 col-sm-6">
 						<h4>Телефоны:</h4>
-						<p><a href="tel:+77077777988" class="white">+77077777988</a></p>
-						<p><a href="tel:+77077777988" class="white">+77012129393</a></p>
+						<p><a href="tel:+77077777988" class="white">8(707)777-79-88</a></p>
+						<p><a href="tel:+77077777988" class="white">8(701)212-93-93</a></p>
 					</div>
 				</div>
 			</div><!--/ end about us -->
