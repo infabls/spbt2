@@ -44,7 +44,7 @@
     text-align: center;
     height: 320px;
 	}
-  .overlay {    background-image: url(https://atiker.kz/vendors/bizcraft/images/overaly.png);
+  .overlay {background-image: url(/assets/img/overaly.png);
     position: absolute;
     left: 0;
     top: 0;
