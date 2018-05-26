@@ -17,6 +17,9 @@
 }
 }
 @media screen and (max-width: 768px) {
+.slick-next {
+    right: 0px !important;}
+.slick-prev {left: 0px !important;}
 .top-btn {
        right: 25%;
     bottom: 35%;

@@ -4,8 +4,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
 		<div class="container">
 			<h2>Фотогаллерея</h2>
-			<div class="row gallery">
-				<a href="assets/img/gallery/Oe46F5GwWeU.jpg" data-fancybox="gallery" data-caption="Caption #1">
+			<div class="row">
+				<div class="gallery col-md-12">
+						<a href="assets/img/gallery/Oe46F5GwWeU.jpg" data-fancybox="gallery" data-caption="Caption #1">
 					<img src="assets/img/gallery/Oe46F5GwWeU.jpg" alt="" />
 				</a>
 				<a href="assets/img/gallery/3_Fd3pwrWTk.jpg" data-fancybox="gallery" data-caption="Caption #1">
@@ -29,6 +30,8 @@
 				<a href="assets/img/gallery/ZZqv2oEdAHw.jpg" data-fancybox="gallery" data-caption="Caption #2">
 					<img src="assets/img/gallery/ZZqv2oEdAHw.jpg" alt="" />
 				</a>
+				</div>
+			
 			</div>
 		</div>
 	</div>
