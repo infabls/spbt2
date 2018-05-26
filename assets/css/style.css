@@ -1,0 +1,215 @@
+@media screen and (min-width: 998px) {
+  .bg-grey { padding: 30px;}
+  
+}
+#myModal .form-control {text-align: center;margin-bottom: 15px;
+    width: 80% !important;}
+.top-btn {position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 141px;}
+@media screen and (min-width: 768px) {
+  .navbar-nav {    margin: 5px;}
+ .navbar-inverse {
+    background-color: #fff;
+    border-color: #080808;
+}
+}
+@media screen and (max-width: 768px) {
+.top-btn {
+       right: 25%;
+    bottom: 35%;
+  }
+ } 
+  .btn-primary {
+        animation-iteration-count: infinite;
+    color: #fff;
+    transition: .2s;
+    background-color: #388E3C;
+    border-color: #2e6da4;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 2px #00000054;
+  }
+  h2 {    margin: 20px;
+    font-size: 36px;  }
+	.navbar-brand img {margin-top: -32px;}
+	.bg-grey {    background-color: #000000a3;
+    margin-top: 30px;}
+	h2 {text-align: center;}
+	::placeholder { color: #FFF;}
+	#contact {
+		background: url(/assets/img/bg/contact.jpg) center fixed;
+    color: #fff;
+    text-align: center;
+    height: 320px;
+	}
+  .overlay {    background-image: url(https://atiker.kz/vendors/bizcraft/images/overaly.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 371px;}
+	#contact input {background-color: transparent;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;	}
+    .call_to_action {
+      padding-top: 40px;
+      font-size: 28px;
+    }
+ 
+    #howwork img {width: 100%;}
+
+	#whywe {
+		text-align: center;
+	}
+	#whywe h2 {margin-bottom: 40px;} 
+	#whywe img {
+	}
+	#whywe img:hover {
+		transition: 1s;
+		transform: scale(1.2);
+	}
+	@media only screen and (max-width: 991px) {
+    .navbar-brand img {
+          position: absolute;
+          margin-left: -67px;
+        }
+		.row .card-w:nth-child(3) {
+			clear: both;
+		}
+	}
+	#feature {
+		text-align: center;
+	}
+	.bg-i {width: 128px; height: 128px;     margin: auto;}
+	.bg-eco {
+    background: url('/assets/img/icon/css_sprites.png') -5px -5px;}
+.bg-gas {
+    background: url('/assets/img/icon/css_sprites.png') -143px -5px;}
+.bg-gears {
+    background: url('/assets/img/icon/css_sprites.png') -5px -143px;}
+.bg-shield {
+    background: url('/assets/img/icon/css_sprites.png') -143px -143px;}
+.bg-2arrows {
+    background: url('/assets/img/icon/css_sprites.png') -281px -5px;}
+
+	#faq    { text-align: center;
+    background: url(/assets/img/bg/faq.jpg);
+    background-size: cover;
+    color: #fff;}
+	#gallery {background-image: url(/assets/img/bg/gallery.jpg); height: 400px;    background-attachment: fixed;}
+	#gallery {text-align: center; color: #fff} 
+	#gallery img {width: 90%;
+    display: inline-block;}
+	#calc {background-image: url(/assets/img/bg/calc.jpg); color: #FFF}
+  .title-icon {
+    font-size: 32px;
+    margin-right: -2px;
+    margin-top: 17px;
+    color: #959595;
+  }
+ #order-now {
+    margin-top: 100px;
+    background-color: #0000008c;
+    padding: 20px;
+    border-radius: 8px;
+}
+  .modal-backdrop.in {z-index: 0}
+	#calc input {color: #333}
+	.card-1 {height: 400px;
+    margin: 5px;
+    background-color: #00000042; width: calc(50% - 10px);}
+	.card-1 h3 {text-align: center;	}
+	#price {text-align: center;}
+	table {text-align: start;}
+
+	#price img {width: 250px;height: 200px; border-radius: 6px; transition: 1s;}
+	#price img:hover {
+		box-shadow: 0px 0px 6px 3px #0000008f;
+		transform: scale(1.1) rotate(10deg);
+	}
+  #price p {
+    color: #d01e1e;
+    font-size: 25px;
+  }
+  span.n-p {
+    position: absolute;
+    bottom: -2px;
+    left: 1px;
+    font-size: 137px;
+    color: #159cff;
+}
+.navbar-nav>li>a:hover {
+    color: #333 !important ;}
+	footer {background: url(/assets/img/bg/footer.jpg) fixed; background-size: cover; color: #fff; text-align: center;}
+	footer a {color: #fff; text-decoration: underline; font-size: 20px	}
+
+  
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .navbar-nav {float: right;}
+  }
+  body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+        #servise {margin-top: 30px}
+        .navbar-nav {
+          margin: 0 -40px 0;
+        }
+        .side-collapse {
+          width: 260px;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+          border: #283f73 2px solid;
+          box-shadow: 0 0 4px 3px #1e76d640;
+          color: #9d9d9d;
+        }
+        navbar-fixed-top .navbar-collapse {
+          margin-top: 50px;
+        }
+        .navbar-nav>li>a {
+          text-align: center;
+          padding-top: 15px;
+          padding-bottom: 15px;}
+          .side-collapse-container{
+            width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:280px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+      header.navbar {height: 64px; background-color: #fff; box-shadow: 0px 1px 3px 1px #00000038;}
+     .navbar-inverse .navbar-toggle {
+      border: 0;
+      padding: 16px 12px;
+     }
+     .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+}
