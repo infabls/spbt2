@@ -1,8 +1,7 @@
 <div id="map">
-	<div class="col-md-7">	
+	<div class="col-md-12">	
 		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7c35e553570538c221695267fb15d6a8b72d07d0fb43ee30cdad06f20f60667a&amp;width=100%&amp;height=483&amp;lang=ru_RU&amp;scroll=true"></script>
 	</div>
-	<div class="col-md-5">sdfa</div>
 	<?php
 if(!empty($_POST['phone'])){
 	//Получаем данные из глобальной переменной $_GET, так как мы передаем данные методом GET
