@@ -54,7 +54,7 @@
                                 <span>в год</span>
                             </p>
                             <h5>Оставьте заявку и мы перезвоним вам</h5>
-                            <form class="form-horizontal order-form" action="" method="POST">
+                            <form class="form-horizontal order-form" action="mail.php" method="POST">
                                     <div class="form-group">
                                         <h4 class="success-order black" style="display: none">Спасибо за заявку</h4>
                                         <input required class="form-control phone-number text-center" type="text" name="phone" placeholder="Ваш телефон" inputmode="numeric">

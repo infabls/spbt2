@@ -4,12 +4,12 @@
 			<div class="col-md-6 col-sm-12 text-center" id="order-now">
 				<h4 class="text-default">Оставить заявку</h4>
 				<h5>Мы обязательно Вам перезвоним</h5>
-				<form class="form-horizontal order-form formx" action="javascript:void(null);" onsubmit="call(this)">
+				<form class="form-horizontal order-form formx" action="mail.php" method="POST">
 					<div class="form-group">
-						<h4 class="success-order white" style="display: none">Спасибо за заявку</h4>
-						<input class="form-control phone-number text-center" type="text" name="phone" placeholder="Ваш телефон" inputmode="numeric">
+						<p class="hidden succes">Ваша заявка принята! Благодарим за обращение!</p>
+						<input class="form-control phone-number text-center" type="text" required name="phone" placeholder="Ваш телефон" inputmode="numeric">
 					</div>
-					<button class="btn btn-primary solid cd-btn" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Ожидайте">Отправить</button>
+					<input type="submit" class="btn btn-primary solid cd-btn" ></input>
 					<a href="tel:+77012129393" class="btn btn-primary white cd-btn"><i class="fa fa-phone"></i> 8(701)212-93-93</a>
 				</form>	
 				<div class="gap-20"></div>

@@ -20,13 +20,14 @@
 			</div>
 		</div>
 	</div>
-	<div id="results">вывод</div>
 <script>
 	function call(form) {
- 	  var msg   = $(this).serialize();
+ 	  var msg   = $('#formx').serialize();
+ 	  alert (msg)
         $.ajax({
           type: 'POST',
-          url: 'res.php',
+          url: 'mail.php',
+          async: true,
           data: msg,
           success: function(data) {
           	$('.succes').removeClass('hidden')
