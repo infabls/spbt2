@@ -5,7 +5,7 @@ if (!empty($_POST['phone'])) {
 	$phone = clean_data($_POST['phone']);
 	$email = clean_data($_POST['email']);
 	$message = "Посетитель " . $name . " заказал обратный звонок на номер " . $phone . " .Почта " . $email; // Формируем сообщение, отправляемое на почту
-	$to = 'Vostok.spbt@mail.ru'; // Задаем получателя письма
+	$to = 'bragin_german@mail.ru'; // Задаем получателя письма
 	$to2 = 'Anuarmanabaev@mail.ru'; // Задаем получателя письма
 	$to3 = 'Imashev.rinat@mail.ru'; // Задаем получателя письма
 	$from = 'mail@vostokspbt.kz';  // От кого пришло письмо
@@ -22,7 +22,5 @@ function clean_data ($data){
 	$data = htmlspecialchars($data);
 	return $data;
 }
-header('Location: /');
-exit;
 
  ?>
