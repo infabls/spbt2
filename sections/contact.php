@@ -23,7 +23,6 @@
 <script>
 	function call(form) {
  	  var msg   = $('#formx').serialize();
- 	  alert (msg)
         $.ajax({
           type: 'POST',
           url: 'mail.php',
