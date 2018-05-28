@@ -5,6 +5,7 @@ if (!empty($_POST['phone'])) {
 	$phone = clean_data($_POST['phone']);
 	$email = clean_data($_POST['email']);
 	$message = "Посетитель $name заказал обратный звонок на номер $phone. Почта $email"; // Формируем сообщение, отправляемое на почту
+	$message = "Test message"
 	$to = 'bragin_german@mail.ru'; // Задаем получателя письма
 	$from = 'mail@vostokspbt.kz';  // От кого пришло письмо
 	$subject = "Заявка на ГБО с сайта vostokspbt.kz"; // Задаем тему письма
