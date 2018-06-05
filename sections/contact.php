@@ -8,7 +8,7 @@
 				</div>
 				<div class="col-md-5 col-sm-12 animated fadeInRight">
 					<h3>Закажите установку ГБО</h3>
-					<form id="formx" action="javascript:void(null);" onsubmit="call(this)">
+					<form id="formx" action="mail.php" method="POST">
 						<input type="text" name="name" placeholder="Ваше имя"> <br>
 						<input type="tel" name="phone" required placeholder="Ваш телефон"><br>
 						<input type="email" name="email" placeholder="Ваш E-mail"><br>
